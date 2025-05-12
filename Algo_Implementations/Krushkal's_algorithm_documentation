@@ -1,0 +1,24 @@
+# **Kruskal's Algorithm Documentation**
+
+## **Introduction**
+Kruskal's algorithm is a **greedy algorithm** used to find the **Minimum Spanning Tree (MST)** of a
+weighted, connected, and undirected graph. The MST is a subset of edges that connects all vertices with
+the minimum possible total edge weight, without forming any cycles.
+
+## **Algorithm Steps**
+1. **Sort** all edges in non-decreasing order based on their weight.
+2. **Initialize** a parent array where each vertex is its own parent.
+3. **Iterate** through the sorted edges and check if they form a cycle using the **Union-Find** data
+structure.
+4. **Include** an edge in the MST if it does not create a cycle.
+5. **Repeat** until we have `V-1` edges in the MST (where `V` is the number of vertices).
+
+## **Complexity Analysis**
+- **Sorting Edges**: `O(E log E)`
+- **Union-Find Operations**: `O(E log V)` (Using Path Compression)
+- **Total Complexity**: `O(E log E + E log V) ≈ O(E log V)`
+
+## **Conclusion**
+Kruskal’s Algorithm is an efficient way to find the Minimum Spanning Tree (MST) in a graph. It uses
+**sorting and the Union-Find data structure** to ensure an optimized and cycle-free MST.
+
