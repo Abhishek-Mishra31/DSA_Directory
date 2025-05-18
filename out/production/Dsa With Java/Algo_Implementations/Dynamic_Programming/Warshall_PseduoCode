@@ -1,0 +1,15 @@
+Input: A[n][n]  — adjacency matrix of a graph with n vertices
+Output: T[n][n] — transitive closure matrix
+
+1. Initialize T = A
+2. for k = 0 to n-1:
+3.     for i = 0 to n-1:
+4.         for j = 0 to n-1:
+5.             T[i][j] = T[i][j] OR (T[i][k] AND T[k][j])
+6. Return T
+
+
+
+Time complexity : 0( n ^ 3 ) not sufficient as compare to dijkastra's algo
+
+we compare each node with via node ,
