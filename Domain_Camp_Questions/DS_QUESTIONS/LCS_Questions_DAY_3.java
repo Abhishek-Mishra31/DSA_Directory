@@ -1,4 +1,4 @@
-package Domain_Camp_Questions;
+package Domain_Camp_Questions.DS_QUESTIONS;
 
 import java.util.*;
 
