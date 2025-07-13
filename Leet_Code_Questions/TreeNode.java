@@ -128,7 +128,6 @@ public class TreeNode {
         return queue.peek();
     }
 
-
     public static void main(String[] args) {
         TreeNode node4 = new TreeNode(15);
         TreeNode node5 = new TreeNode(7);
@@ -145,6 +144,5 @@ public class TreeNode {
 
         TreeNode successor = findSuccessor(root, 9);
         System.out.println(successor.val);
-
     }
 }
