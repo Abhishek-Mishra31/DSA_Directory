@@ -1,10 +1,10 @@
+package Leet_Code_Questions;
 
 import java.util.Arrays;
 import java.util.ArrayList;
-import java.util.Collections;
 
 
-    public class ThreeSumLeetcode {
+public class ThreeSumLeetcode {
         public static ArrayList<Integer[]> threeSum(int[] arr) {
             ArrayList<Integer[]> triplets = new ArrayList<>();
 

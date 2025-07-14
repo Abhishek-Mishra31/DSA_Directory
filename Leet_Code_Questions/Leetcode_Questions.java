@@ -1,3 +1,5 @@
+package Leet_Code_Questions;
+
 import java.util.Arrays;
 
 public class Leetcode_Questions {
