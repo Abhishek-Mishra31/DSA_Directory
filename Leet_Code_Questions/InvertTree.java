@@ -12,9 +12,6 @@ public class InvertTree {
     InvertTree left;
     InvertTree right;
 
-    InvertTree() {
-    }
-
     InvertTree(int val) {
         this.val = val;
     }
