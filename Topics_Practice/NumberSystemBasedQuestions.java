@@ -1,3 +1,5 @@
+package Topics_Practice;
+
 public class NumberSystemBasedQuestions {
 
     static boolean isEven(int number) {
