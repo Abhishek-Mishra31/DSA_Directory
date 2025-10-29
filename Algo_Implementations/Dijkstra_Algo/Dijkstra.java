@@ -1,4 +1,4 @@
-package CU_Practice_Programs.Algo_Implementations.Dijkstra_Algo;
+package Algo_Implementations.Dijkstra_Algo;
 
 import java.util.*;
 
