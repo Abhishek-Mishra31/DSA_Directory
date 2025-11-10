@@ -53,7 +53,7 @@ public class RangeSumQueries {
                 if (type == 1) {
                     int k = fr.nextInt();
                     long u = fr.nextLong();
-                    fw.add(k, u - arr[k]);  // update difference
+                    fw.add(k, u - arr[k]);
                     arr[k] = u;
                 } else {
                     int a = fr.nextInt();
@@ -66,28 +66,28 @@ public class RangeSumQueries {
         }
 
 
-//        static class FastReader {
-//            BufferedReader br;
-//            StringTokenizer st;
-//
-//            FastReader() {
-//                br = new BufferedReader(new InputStreamReader(System.in));
-//            }
-//
-//            String next() throws IOException {
-//                while (st == null || !st.hasMoreTokens())
-//                    st = new StringTokenizer(br.readLine());
-//                return st.nextToken();
-//            }
-//
-//            int nextInt() throws IOException {
-//                return Integer.parseInt(next());
-//            }
-//
-//            long nextLong() throws IOException {
-//                return Long.parseLong(next());
-//            }
-//        }
+        static class FastReader {
+            BufferedReader br;
+            StringTokenizer st;
+
+            FastReader() {
+                br = new BufferedReader(new InputStreamReader(System.in));
+            }
+
+            String next() throws IOException {
+                while (st == null || !st.hasMoreTokens())
+                    st = new StringTokenizer(br.readLine());
+                return st.nextToken();
+            }
+
+            int nextInt() throws IOException {
+                return Integer.parseInt(next());
+            }
+
+            long nextLong() throws IOException {
+                return Long.parseLong(next());
+            }
+        }
     }
 
 }
